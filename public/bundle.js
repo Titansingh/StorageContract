@@ -45,8 +45,8 @@ const simpleStorageABI = [
       "signature": "0x6d4ce63c"
     }
   ];
-const simpleStorageAddress = '0x2782fc4b19C78690b79699108Df6674c5346b439';
-var web3 = new Web3('http://localhost:7545');
+const simpleStorageAddress = '0x0D6A8354Da05A61A77EfEBA7144B849B2379923F';
+var web3 = new Web3('http://localhost:9545');
 var simpleStorage = new web3.eth.Contract(simpleStorageABI, simpleStorageAddress);
 
 document.addEventListener('DOMContentLoaded', () => {
